@@ -1,0 +1,17 @@
+
+;; ----- smex-history -----
+(
+ eww-open-file
+ run-scheme
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+)
+
+;; ----- smex-data -----
+(
+ (run-scheme . 2)
+ (eww-open-file . 1)
+)
