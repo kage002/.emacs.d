@@ -1,17 +1,35 @@
 
 ;; ----- smex-history -----
 (
- eww-open-file
+ insert-file
+ goto-line
+ set-cursor-color
+ cursor-sensor-mode
+ cursor-intangible-mode
  run-scheme
- cd
- 5x5
- arp
- dbx
- dig
+ indent-region
 )
 
 ;; ----- smex-data -----
 (
- (run-scheme . 2)
+ (run-scheme . 14)
  (eww-open-file . 1)
+ (goto-line . 21)
+ (replace-string . 1)
+ (newline . 3)
+ (paredit-mode . 2)
+ (package-list-packages . 1)
+ (evil-mode . 1)
+ (todo-mode . 6)
+ (scheme-mode . 1)
+ (read-only-mode . 1)
+ (find-file . 1)
+ (insert-file . 3)
+ (indent-region . 3)
+ (kill-buffer . 1)
+ (comment-line . 3)
+ (comment-indent . 1)
+ (cursor-intangible-mode . 2)
+ (cursor-sensor-mode . 2)
+ (set-cursor-color . 1)
 )

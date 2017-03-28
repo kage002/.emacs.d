@@ -6,7 +6,7 @@
  '(custom-safe-themes
    (quote
     ("1ba61848d0d8c78e037867c26f118875705c20f5ad64949a8cee8c8059e5c50f" default)))
- '(package-selected-packages (quote (smex auto-complete flycheck))))
+ '(package-selected-packages (quote (evil smex auto-complete flycheck))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -26,9 +26,7 @@
 (ac-config-default)
 
 ;;evil
-;(add-to-list 'load-path "~/.emacs.d/evil")
-;(require 'evil)
-;(evil-mode 1)
+(evil-mode 1)
 ;;paredit-mode
 ;(add-to-list 'load-path "~/.emacs.d/programing")
 ;(autoload 'paredit-mode "paredit"
